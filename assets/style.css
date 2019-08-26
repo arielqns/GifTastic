@@ -1,39 +1,41 @@
-body    {
-    font: 18px arial, sans-serif;
-    background: #eee;
+body {
+	background-image: url("https://images.pexels.com/photos/54276/pexels-photo-54276.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+	margin: 0px;
+    padding: 0px;
+    background-size: 150%;
+    background-attachment: fixed;
 }
-#searches   {
-    width: 70%;
-}
-.search-items {
-    float: left;
-    padding: 10px;
-}
-form {
-    width: 30%;
-    float:  right;
-    padding: 20px;
-}
-label {
-    display: block;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-input[type="text"]   {
-    width: 100%;
-    margin-bottom: 10px;
-    height: 30px;
-    font-size: 18px;
-}
-button, input[type="submit"]    {
-    background: lightskyblue;
-    color: #ffffff;
-    border: 0;
-    border-radius: 5px;
-    padding: 5px 20px;
-    font-size: 18px;
-    margin: 0 10px 10px 0;
-    cursor: pointer;
-    box-shadow: 2px 2px 3px #bbb;
 
+.buttons-view {
+	margin: 20px 0px 20px 0px;
+}
+
+.gifDiv {
+	margin-right: 10px;
+	float: left;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.topic {
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background-color: lightskyblue;
+	color: white;
+}
+
+#add-topic {
+	background-color: lightskyblue;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#topic-input {
+	width: 100%;
+    margin-top: 2px;
+    color: black;
+}
+#gif-form   {
+    color: white;
 }
